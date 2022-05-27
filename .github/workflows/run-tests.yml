@@ -1,10 +1,7 @@
 name: Run tests and deploy
 
 # Run this workflow whenever something new is pushed.
-on: 
-  push:
-    tags:
-    - stage-*
+on: push
 
 jobs:
   run-tests:
