@@ -31,8 +31,8 @@ jobs:
           username: ${{ secrets.USERNAME }}
           script: |
             echo 'Welcome to my server'
-            mkdir auto-deploy-test
-            cd auto-deploy-test
+            mkdir test
+            cd test
             echo 'Now in auto-deploy-test'
             git pull
             systemctl restart nginx
