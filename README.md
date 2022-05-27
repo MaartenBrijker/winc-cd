@@ -11,6 +11,7 @@ And now the pull request works.
 
 I tested this in loser folder on the root folder, now let's do this in our main 'farm' folder
 
+I figured, we need to first clone the folder to my Droplet. Then after that we can pull in it.
 
 Now fix 
 Part 2: Configuring NGINX
