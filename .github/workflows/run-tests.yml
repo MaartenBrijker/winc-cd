@@ -31,5 +31,5 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           script: |
             echo 'Welcome to my server'
-            cd cloner
-            git clone git@github.com:MaartenBrijker/winc-cd.git
+            cd cloner/winc-cd
+            git pull
