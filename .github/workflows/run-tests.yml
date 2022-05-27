@@ -32,4 +32,4 @@ jobs:
           script: |
             echo 'Welcome to my server'
             cd /home
-            git@github.com:MaartenBrijker/winc-cd.git
+            git clone git@github.com:MaartenBrijker/winc-cd.git
