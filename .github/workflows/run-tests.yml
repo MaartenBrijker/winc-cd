@@ -1,6 +1,6 @@
-name: Run tests, then deploy
+name: Run tests and deploy
 
-# Runn this workflow whenever something new is pushed.
+# Run this workflow whenever something new is pushed.
 on: 
   push:
     tags:
