@@ -1,7 +1,11 @@
-name: Run tests
+name: Run tests, then deploy
 
 # Run this workflow whenever something new is pushed.
-on: push
+on: 
+  push:
+    tags:
+    - deploy-*
+
 jobs:
   run-tests:
     runs-on: ubuntu-20.04
