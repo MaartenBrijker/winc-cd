@@ -31,7 +31,5 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           script: |
             echo 'Welcome to my server'
-            mkdir cloner
             cd cloner
-            echo 'Now in auto-deploy-test'
             git clone git@github.com:MaartenBrijker/winc-cd.git
