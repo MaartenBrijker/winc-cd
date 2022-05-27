@@ -4,7 +4,7 @@ name: Run tests and deploy
 on: 
   push:
     tags:
-    - deploy
+    - deploy*
 
 jobs:
   run-tests:
