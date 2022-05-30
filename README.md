@@ -9,11 +9,11 @@ First I extended my previous .yaml file (that consisted of a run-tests section) 
 
 I registered the following 3 secrets:
 
-![](/secrets.png?raw=true)
+![](/pics/secrets.png?raw=true)
 
 Then I added the following code to my .yaml file:
 
-![](/yaml-code.png?raw=true)
+![](/pics/yaml-code.png?raw=true)
 
 I struggled a bit here. Even though following the tutorial closely, I made some small copy paste or typo's that prevented this from working properly. After carefully backchecking I finally got it working. 
 
@@ -47,4 +47,4 @@ Now my application was fully working. If I modified my lib.py file to purposely 
 
 Lastly I added some commands to my script to make sure that my packages would be up-to-date on my Droplet.
 
-![](/script.png?raw=true)
+![](/pics/script.png?raw=true)
