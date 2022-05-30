@@ -1,3 +1,3 @@
 def power(x, y):
-    print("THIS IS FAILED")
+    print("UPDATED")
     return x**y
