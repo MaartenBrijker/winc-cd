@@ -32,3 +32,4 @@ jobs:
           script: |
             cd /home/winc-cd
             git pull
+            systemctl restart nginx
